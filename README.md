@@ -178,7 +178,7 @@ Type values and their behaviors are:
 kubectl expose deployment myservice --type=NodePort --port=8080
 ```
 
-Retrieve the service address:
+Retrieve the service address: `http://127.0.0.1:58312`
 ```
 minikube service myservice --url
 ```
