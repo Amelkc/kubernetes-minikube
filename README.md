@@ -243,7 +243,8 @@ kubectl expose deployment myservice --type=LoadBalancer --port=8080
 ```
 minikube service myservice --url
 ```
-Test in your web browser
+Test in your web browser 
+address : `http://127.0.0.1:58703`
 
 ## Rolling updates
 
