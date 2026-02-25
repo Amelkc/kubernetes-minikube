@@ -127,6 +127,8 @@ kubectl describe pods
 
 Retreive the IP address but notice that this IP address is ephemeral since a pods can be deleted and replaced by a new one.
 
+==> IP obtenue `10.244.0.3`
+
 Then retrieve the deployment in the minikube dashboard. 
 Actually the Docker container is runnung inside a Kubernetes pods (look at the pod in the dashboard).
   
