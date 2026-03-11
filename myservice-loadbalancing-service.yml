@@ -6,7 +6,7 @@ metadata:
   name: myservice
 spec:
   ports:
-    - nodePort: 30945
+    - nodePort: 31746
       port: 8080
       protocol: TCP
       targetPort: 8080
