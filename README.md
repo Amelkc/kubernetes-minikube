@@ -291,7 +291,7 @@ Apply the service of type loadbalancer:
 ```
 kubectl apply -f myservice-loadbalancing-service.yml
 ```
-Then test if it works as expected.
+Then test if it works as expected. ``` http://127.0.0.1:55477 ```
 
 # Routing rule to a service using Ingress
 
